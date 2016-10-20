@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\StoreMyPassword\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="19a40a8afe0289f6520b25353096ac233e78f69d">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\StoreMyPassword\app\build\intermediates\pre-dexed\debug\classes-37c16fdf2c8653521d7b65b21e347d46f82e1944.jar" />
+    </item>
+
+</items>
