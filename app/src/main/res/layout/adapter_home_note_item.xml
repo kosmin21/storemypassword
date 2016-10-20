@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.cosmin.storemypassword.Views.GridViewItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/preview_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/note_shape">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/white_gradient_background">
+            <TextView
+                android:id="@+id/preview_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/sub_header_font_size"
+                android:text="@string/default_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/credit_card_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:id="@+id/preview_item_cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sub_header_font_size"
+                    android:textStyle="bold"
+                    android:text="@string/default_cards"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/account_icon_black"/>
+                <TextView
+                    android:id="@+id/preview_item_logins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sub_header_font_size"
+                    android:textStyle="bold"
+                    android:text="@string/default_logins"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</me.cosmin.storemypassword.Views.GridViewItem>

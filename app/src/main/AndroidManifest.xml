@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.cosmin.storemypassword">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/app_logo"
+                 android:theme="@style/MyMaterialTheme"
+                 android:name="com.orm.SugarApp">
+        <activity
+            android:label="Login"
+            android:name=".Activities.LoginActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Create Password"
+            android:name=".Activities.CreatePasswordActivity">
+        </activity>
+
+        <activity
+            android:label="Main List"
+            android:name=".Activities.HomeActivity">
+        </activity>
+
+        <activity
+            android:label="View Note"
+            android:name=".Activities.ViewNoteActivity">
+        </activity>
+
+        <activity
+            android:label="Edit Card"
+            android:name=".Activities.EditCardActivity">
+        </activity>
+
+        <activity
+            android:label="Edit Note"
+            android:name=".Activities.EditNoteActivity">
+        </activity>
+
+        <activity
+            android:label="Edit Login"
+            android:name=".Activities.EditCredentialActivity">
+        </activity>
+
+    </application>
+
+</manifest>

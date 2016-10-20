@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Store My Password</string>
+    <string name="new_password_prompt">Set a password for login</string>
+    <string name="new_password_fail">Password does not meet requirements!</string>
+    <string name="new_password_requirements">
+        Password requirements: \n
+        - min 10 characters \n
+        - include one or more digits \n
+        \n
+        Beware that you cannot change your password if you forget it.
+    </string>
+
+    <string name="new_password_submit">Submit</string>
+
+    <string name="password_prompt">Type the following letters</string>
+    <string name="password_error">One or more letters were incorrect</string>
+    <string name="password_submit">Login</string>
+
+    <string name="card_name_label">NAME</string>
+    <string name="card_cvv_label">CVV</string>
+    <string name="card_pin_label">PIN</string>
+    <string name="card_password_label">E-PASS</string>
+    <string name="card_valid_label">VALID</string>
+    <string name="card_account_label">ACCOUNT</string>
+    <string name="card_short_account_label">ACC</string>
+    <string name="card_sort_code_label">SORT CODE</string>
+    <string name="card_short_sort_code_label">SC</string>
+
+    <!-- Home Activity -->
+    <string name="default_title">Missing Title</string>
+    <string name="default_cards">0</string>
+    <string name="default_logins">0</string>
+
+    <!-- View Note Activity -->
+    <string name="view_note_activity_title">View note</string>
+    <string name="cards_tab_title">Cards</string>
+    <string name="logins_tab_title">Logins</string>
+
+    <!-- Edit Note Activity -->
+    <string name="edit_note_title_hint">Title</string>
+    <string name="edit_note_url_hint">Website</string>
+
+    <string name="edit_note_toolbar_title">Edit Note</string>
+    <string name="edit_note_toolbar_title_new">New Note</string>
+
+    <string name="selected_color_label">is the selected background.</string>
+    <string name="select_color_label">Choose note background</string>
+    <string name="cannot_delete_note">Note does not exist</string>
+
+    <string name="error_required_title">Title is required</string>
+    <string name="error_invalid_url">Url is invalid</string>
+
+    <!-- Edit Credential Activity -->
+    <string name="edit_login_username_hint">Username / Email</string>
+    <string name="edit_login_password_hint">Password</string>
+
+    <string name="edit_credential_toolbar_title">Edit Credentials</string>
+    <string name="edit_credential_toolbar_title_new">New Credentials</string>
+
+    <!-- Toast messages -->
+    <string name="toast_not_implemented">This feature is not implemented</string>
+
+    <!-- Toolbar -->
+    <string name="activity_home_title">My Notes</string>
+    <string name="activity_note_details_title">View Note</string>
+    <string name="activity_edit_note_title">Edit Note</string>
+    <string name="activity_edit_note_title_new">New Note</string>
+    <string name="activity_edit_card_title">Edit Card</string>
+    <string name="activity_edit_card_title_new">New Card</string>
+
+    <!-- MENU items -->
+    <string name="menu_action_lock">Lock App</string>
+    <string name="menu_action_filter">Filter</string>
+
+    <string name="edit_menu_save">SAVE</string>
+    <string name="edit_menu_delete">Delete</string>
+
+    <string name="cannot_delete">Record does not exist</string>
+
+    <string name="menu_action_edit_note">Edit Note</string>
+    <string name="menu_action_add_card">Add New Card</string>
+    <string name="menu_action_add_credential">Add New Credential</string>
+</resources>

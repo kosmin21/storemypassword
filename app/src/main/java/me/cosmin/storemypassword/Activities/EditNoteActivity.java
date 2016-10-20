@@ -15,9 +15,6 @@ import me.cosmin.storemypassword.StaticLists.Colors;
 import me.cosmin.storemypassword.Views.CircleImageView;
 import me.cosmin.storemypassword.Views.MyRecyclerView;
 
-/**
- * Created by Cosmin on 18/10/2016.
- */
 public class EditNoteActivity extends MyActivity {
 
     private Note mNote;

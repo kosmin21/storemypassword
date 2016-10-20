@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_edit_note"
+        android:title="@string/menu_action_edit_note"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_add_card"
+        android:title="@string/menu_action_add_card"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_add_login"
+        android:title="@string/menu_action_add_credential"
+        app:showAsAction="never"/>
+</menu>

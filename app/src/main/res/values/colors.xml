@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // App global colors
+    <color name="primary">#EF5350</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#333333</color>
+    <color name="edit_text">#000000</color>
+    <color name="text_view">#000000</color>
+    <color name="window_Background">#FFFFFF</color>
+    <color name="accent">#448AFF</color>
+    <color name="floating_action">#448AFF</color>
+
+    <color name="error_text_color">#e00a05</color>
+    <color name="error_background">#ffd6d0</color>
+
+    // Note Details Activity
+    <color name="box_background">#FFFFFF</color>
+
+    // Used in gradient
+    <color name="header_background">#FFFFFF</color>
+
+</resources>
