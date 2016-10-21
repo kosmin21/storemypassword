@@ -13,9 +13,9 @@ import me.cosmin.storemypassword.Adapters.CredentialsAdapter;
 import me.cosmin.storemypassword.R;
 import me.cosmin.storemypassword.Views.VerticalSpaceItemDecoration;
 
-public class LoginsFragment extends Fragment {
+public class CredentialsFragment extends Fragment {
 
-    public LoginsFragment() {
+    public CredentialsFragment() {
 
     }
 

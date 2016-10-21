@@ -19,7 +19,7 @@ import me.cosmin.storemypassword.Adapters.CredentialsAdapter;
 import me.cosmin.storemypassword.Adapters.ViewPagerAdapter;
 import me.cosmin.storemypassword.Controllers.NoteController;
 import me.cosmin.storemypassword.Fragments.CardsFragment;
-import me.cosmin.storemypassword.Fragments.LoginsFragment;
+import me.cosmin.storemypassword.Fragments.CredentialsFragment;
 import me.cosmin.storemypassword.Models.Note;
 import me.cosmin.storemypassword.R;
 import me.cosmin.storemypassword.Views.CircleImageView;
@@ -104,7 +104,7 @@ public class ViewNoteActivity extends MyActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.view_note_tab_container);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new CardsFragment(), getString(R.string.cards_tab_title));
-        adapter.addFragment(new LoginsFragment(), getString(R.string.logins_tab_title));
+        adapter.addFragment(new CredentialsFragment(), getString(R.string.logins_tab_title));
         viewPager.setAdapter(adapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
