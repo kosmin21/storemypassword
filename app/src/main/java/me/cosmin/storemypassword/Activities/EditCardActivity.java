@@ -3,10 +3,8 @@ package me.cosmin.storemypassword.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import me.cosmin.storemypassword.Models.Card;
 import me.cosmin.storemypassword.R;
@@ -46,31 +44,6 @@ public class EditCardActivity extends MyActivity {
         // If card already exists prepopulate fields for edit purpose
         if( mCard != null ) {
             prePopulateFields();
-        }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.edit_menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-            case R.id.action_save:
-                saveCard();
-                return true;
-            case R.id.action_delete:
-                deleteCard();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
         }
     }
 
@@ -115,15 +88,13 @@ public class EditCardActivity extends MyActivity {
         mCardSortCodeThirdGroup.setText(mCard.sortCode.substring(4,6));
     }
 
-    private void saveCard() {
-
+    @Override
+    public void save() {
+        Toast.makeText(this, getString(R.string.toast_not_implemented), Toast.LENGTH_SHORT).show();
     }
 
-    private void validateFields() {
-
-    }
-
-    private void deleteCard() {
-
+    @Override
+    public void delete() {
+        Toast.makeText(this, getString(R.string.toast_not_implemented), Toast.LENGTH_SHORT).show();
     }
 }

@@ -68,6 +68,7 @@ public class EditCredentialActivity extends MyActivity {
         mNote.setId(mNote.getRecordId());
         mCredential.note = mNote;
         mCredential.save();
+        Toast.makeText(this, getString(R.string.toast_record_saved), Toast.LENGTH_SHORT).show();
         finish();
     }
 
@@ -76,6 +77,7 @@ public class EditCredentialActivity extends MyActivity {
         if ( mCredential != null ) {
             mCredential.setId(mCredential.getRecordId());
             mCredential.delete();
+            Toast.makeText(this, getString(R.string.toast_record_deleted), Toast.LENGTH_SHORT).show();
             finish();
         } else {
             Toast.makeText(this, getString(R.string.cannot_delete), Toast.LENGTH_SHORT).show();

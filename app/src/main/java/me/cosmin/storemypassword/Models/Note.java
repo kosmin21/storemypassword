@@ -34,11 +34,6 @@ public class Note extends SugarRecord implements Parcelable {
     public Note() {
     }
 
-    public interface SaveStatusCallback {
-        void onSaveSuccessful();
-        void onSaveFailed();
-    }
-
     public long checkUrlAndSave() {
         CheckNoteUrl checkUrl = new CheckNoteUrl(this);
         checkUrl.run();

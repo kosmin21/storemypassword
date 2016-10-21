@@ -29,6 +29,7 @@ public class CreatePasswordActivity extends Activity {
         }
         if ( mLoginController.isLoggedIn() ) {
             mLoginController.goToHome();
+            finish();
         }
     }
 

@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import me.cosmin.storemypassword.Adapters.NotesAdapter;
 import me.cosmin.storemypassword.Controllers.LoginController;
@@ -50,9 +49,7 @@ public class HomeActivity extends MyActivity {
                 return true;
             case R.id.action_lock:
                 new LoginController(this).logOut();
-                return true;
-            case R.id.action_filter:
-                filterView();
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -88,9 +85,5 @@ public class HomeActivity extends MyActivity {
         recyclerView.addItemSpacing();
 
         recyclerView.setAdapter(mNotesAdapter);
-    }
-
-    private void filterView() {
-        Toast.makeText(this, getString(R.string.toast_not_implemented), Toast.LENGTH_SHORT).show();
     }
 }

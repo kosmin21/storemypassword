@@ -1,10 +1,12 @@
 package me.cosmin.storemypassword.Activities;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -71,6 +73,7 @@ public class ViewNoteActivity extends MyActivity {
                 newActivity = new Intent(this, EditNoteActivity.class);
                 newActivity.putExtra("note", mNote);
                 startActivity(newActivity);
+                finish();
                 return true;
             case R.id.action_add_card:
                 newActivity = new Intent(this, EditCardActivity.class);
@@ -124,15 +127,35 @@ public class ViewNoteActivity extends MyActivity {
         url.setText(mNote.url);
         CircleImageView color = (CircleImageView) findViewById(R.id.view_note_color);
         color.changeBackgroundColor(mNote.color);
-        ImageView open = (ImageView) findViewById(R.id.view_note_url_open);
+        ImageView status = (ImageView) findViewById(R.id.view_note_url_status);
         if ( Note.UrlStatus.SAFE.name().equals(mNote.safe) ) {
-            open.setVisibility(View.VISIBLE);
+            status.setBackground(getDrawable(R.drawable.check_icon_black));
         } else {
-            open.setVisibility(View.GONE);
+            status.setBackground(getDrawable(R.drawable.alert_icon_black));
         }
     }
 
     public void openUrl(View view) {
+        if ( !Note.UrlStatus.SAFE.name().equals(mNote.safe) ) {
+            new AlertDialog.Builder(this, R.style.MyAlertDialog)
+                    .setIcon(R.drawable.alert_icon_black)
+                    .setTitle("Unsecure link")
+                    .setMessage("The link has not been checked and approved for malware. Continue?")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            followLink();
+                        }
+
+                    })
+                    .setNegativeButton("No", null)
+                    .show();
+        } else {
+            followLink();
+        }
+    }
+
+    private void followLink() {
         String url = mNote.url;
         if ( !url.startsWith("http://") && !url.startsWith("https://") ) {
             url = "http://" + url;

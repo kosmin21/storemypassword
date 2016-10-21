@@ -100,6 +100,7 @@ public class EditNoteActivity extends MyActivity {
             mNote.title = mTitle.getText().toString();
             mNote.url = mUrl.getText().toString();
             mNote.checkUrlAndSave();
+            Toast.makeText(this, getString(R.string.toast_record_saved), Toast.LENGTH_SHORT).show();
             finish();
         }
     }
@@ -109,8 +110,10 @@ public class EditNoteActivity extends MyActivity {
         if ( mNote != null ) {
             mNote.setId(mNote.getRecordId());
             NoteController.deleteNote(mNote);
+            Toast.makeText(this, getString(R.string.toast_record_deleted), Toast.LENGTH_SHORT).show();
             Intent home = new Intent(this, HomeActivity.class);
             startActivity(home);
+            finish();
         } else {
             Toast.makeText(this, getString(R.string.cannot_delete), Toast.LENGTH_SHORT).show();
         }

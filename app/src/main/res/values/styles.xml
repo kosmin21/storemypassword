@@ -8,6 +8,7 @@
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
         <item name="android:editTextStyle">@style/MyEditText</item>
         <item name="android:textViewStyle">@style/MyTextView</item>
+        <item name="android:alertDialogStyle">@style/MyAlertDialog</item>
     </style>
 
     <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light">
@@ -35,6 +36,12 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/text_view</item>
         <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <style name="MyAlertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/text_view</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_view</item>
     </style>
 
 </resources>

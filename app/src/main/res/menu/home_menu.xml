@@ -5,8 +5,4 @@
         android:id="@+id/action_lock"
         android:title="@string/menu_action_lock"
         app:showAsAction="always"/>
-    <item
-        android:id="@+id/action_filter"
-        android:title="@string/menu_action_filter"
-        app:showAsAction="never"/>
 </menu>

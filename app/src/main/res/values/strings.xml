@@ -59,6 +59,8 @@
 
     <!-- Toast messages -->
     <string name="toast_not_implemented">This feature is not implemented</string>
+    <string name="toast_record_saved">Record saved</string>
+    <string name="toast_record_deleted">Record deleted</string>
 
     <!-- Toolbar -->
     <string name="activity_home_title">My Notes</string>

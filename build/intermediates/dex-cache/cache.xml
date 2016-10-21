@@ -2,11 +2,165 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Cosmin\AndroidStudioProjects\StoreMyPassword\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.5\jars\classes.jar"
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1-305ea7c592a2823a94dcc66d04bb74ed63416fff.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-1e98ee88626a2c75f942f9fdc51de503950cd58f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-2274433980e6f13f366f0e01d4300176fb9cbf21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-51cf2bbd46885a75d3780e779ff0bb1c300b4f2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-a47b71690ad2936d95fbb08b06c256bc8832af07.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-f45d78dba0e77f07f698a4ce7a15c515450786f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\okio-1.8.0-5a8e7ee36e796917aa231b944165249e694ecfaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-aee6c4b5b2f8234afb9af7de7cff9803bee85f53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\gson-2.7-fec0f3df4b57f865d0993840b7f7b64792e50054.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1-d8a0055560dab4aa0c56dccd7a06cfdba216b26f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-8ffcf3e052bce05c5075338adbab590b6406fc86.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-1d7884905a0387ac007d0ebb2c95512164ba89cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0-ed709e4f0be29aec2dfd0a5a3008f306ae1a124e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-06d13febeacde0e5d54b510756c2ba761bcb2453.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0-3d3fbc8977f35252289aec8baabc1ac1eabbf845.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-f07944193973f00a11e7008daf015569dfad855e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1-a2f3e6feb5f2d7eca2f551fad23a13703cf5cdba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1-7ac59f0c781016ad670868b08fb54ebe446ff564.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-5337b5240249f4e9a3172c1666219ae7c45a02b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.5\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="19a40a8afe0289f6520b25353096ac233e78f69d">
-        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\StoreMyPassword\app\build\intermediates\pre-dexed\debug\classes-37c16fdf2c8653521d7b65b21e347d46f82e1944.jar" />
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\classes-246ecebfd099ba53fb0f376dea0d8bc60a249601.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0-49b5625f99e35132abcaac3980156cbeb4277c6a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1-37a4c8d5fd72815cbf16c4d02950b99767f58b41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cosmin\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Cosmin\AndroidStudioProjects\storemypasswordapp\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1-d0f58eec7176f1e86c521b05c0c6d1bbbb1bc648.jar" />
     </item>
 
 </items>

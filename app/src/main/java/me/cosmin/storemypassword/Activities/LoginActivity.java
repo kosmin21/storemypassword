@@ -43,6 +43,7 @@ public class LoginActivity extends Activity {
         super.onResume();
         if ( mLoginController.isLoggedIn() ) {
             mLoginController.goToHome();
+            finish();
         }
     }
 
@@ -170,6 +171,7 @@ public class LoginActivity extends Activity {
                 password.charAt(mRandomLetters.get(1)) == mSecondLetter.getText().charAt(0) &&
             password.charAt(mRandomLetters.get(2)) == mThirdLetter.getText().charAt(0) ) {
             mLoginController.successfulLogin();
+            finish();
         } else {
             displayError();
         }
